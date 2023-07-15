@@ -1,0 +1,28 @@
+@mixin flex($ai,$jc) {
+    display: flex;
+    align-items: $ai;
+    justify-content: $jc;
+}
+
+@mixin flex2 ($ait, $gap) {
+    display: flex;
+    align-items: $ait;
+    gap: $gap;
+}
+
+@mixin grid ($js) {
+    display: grid;
+    justify-items: $js;
+}
+
+@mixin grid2 ($gtc) {
+    display: grid;
+    grid-template-columns: $gtc;
+}
+
+@mixin griditem ($fs,$fst,$fw,$lh) {
+    font-size: $fs;
+    font-style: $fst;
+    font-weight: $fw;
+    line-height: $lh;
+}
